@@ -179,11 +179,9 @@ Make sure that the name of the input source matches the name of the input you sp
 ##Start the job
 As a default, Stream Analytics jobs start reading incoming events from the time that the job starts.  Because the Event Hub contains existing data to process, we need to configure the job to consume this historical data.  
 
-1.	Click **CONFIGURE** on the top of the page.
-2.	Change the **START OUTPUT** value to **CUSTOM TIME**, and specify a start time.  Make sure that the start time is sometime before the time that you ran BasicEventHubSample.  
-3.	Click **SAVE** from the bottom of the page and **YES** to confirm.
-3.	Click **DASHBOARD** on the top of the page, and then click **START** on the bottom of the page, and **YES** to confirm.  In the **quick glance** pane, the **STATUS** will change to **Starting** and may take a couple of minutes to complete the starting process and move into the **Running** state.   
-
+1.	Click **DASHBOARD** on the top of the page, and then click **START** on the bottom of the page, and **YES** to confirm.    
+2.	New Popup will show: Change the **START OUTPUT** value to **CUSTOM TIME**, and specify a start time.  Make sure that the start time is sometime before the time that you ran BasicEventHubSample.  
+3.      In the **quick glance** pane, the **STATUS** will change to **Starting** and may take a couple of minutes to complete the starting process and move into the **Running** state. 
 
 ##View job output
 
